@@ -75,4 +75,6 @@ class MahasiswaController extends Controller
      return redirect()->route('mahasiswas.show')
      ->with('pesan',"Update data {$validate['nama']} berhasil");
      }
+
+    //  belom berhasil
 }
